@@ -8,6 +8,10 @@ var fs = require("fs")
 // Import the keys.js file and store it in a variable
 var keys = require("./keys.js");
 
+//
+var moment = require('moment');
+moment().format();
+
 //Require AXIOS for our API Calls
 var axios = require("axios");
 
@@ -101,7 +105,35 @@ function spotifyThis() {
         }
     })
 };
+function concertThis(){
+    var queryUrl = "https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp"
 
+    axios.get(queryUrl).then(
+        function(response) {
+            console.log(response.data[0])
+            for (i = 0; i < response.data.length; i++) {
+            var momentTime = moment(response.data[i].datetime).format('MM/DD/YYYY');
+            console.log("\nThis concert will be held on " + momentTime + " and the location of this concert is " + response.data[i].venue.name + ", located in the city of " + response.data[i].venue.city + ", " + response.data[i].venue.country + ".")
+        }
+    }).catch(function (error) {
+            if (error.response) {
+                // The request was made and the server responded with a status code
+                // that falls out of the range of 2xx
+                console.log("---------------Data---------------");
+                console.log(error.response.data);
+                console.log("---------------Status---------------");
+                console.log(error.response.status);
+                console.log("---------------Status---------------");
+                console.log(error.response.headers);
+            } else if (error.request) {
+                console.log(error.request);
+            } else {
+                // Something happened in setting up the request that triggered an Error
+                console.log("Error", error.message);
+            }
+            console.log(error.config);
+        })
+}
 
 function movieThis() {
     // Then run a request with axios to the OMDB API with the movie specified
