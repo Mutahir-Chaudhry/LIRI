@@ -1,11 +1,10 @@
-//think about using inqurier
 //Read and set any environment variables with the dotenv package
 require("dotenv").config();
 
 //Require node package for reading and writing files with 
 var fs = require("fs")
 
-// Import the keys.js file and store it in a variable
+//Import the keys.js file and store it in a variable
 var keys = require("./keys.js");
 
 //Require moment.js for time conversions
@@ -26,7 +25,7 @@ var action = process.argv[2];
 
 var value = process.argv[3];
 
-//Creating switch-case statement so liri.js can take in one of the following commands
+//switch-case statement
 switch (action) {
     case "concert-this":
         concertThis();
@@ -46,49 +45,49 @@ switch (action) {
 }
 
 //concert-this function
-function concertThis(){
+function concertThis() {
     var queryUrl = "https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp"
 
     axios.get(queryUrl).then(
-        function(response) {
+        function (response) {
 
             console.log(response.data[0])
 
             for (i = 0; i < response.data.length; i++) {
 
-            var momentTime = moment(response.data[i].datetime).format('MM/DD/YYYY');
-            var name = response.data[i].venue.name;
-            var city = response.data[i].venue.city;
-            var country = response.data[i].venue.country;
-            
-            console.log("\nNew Concert!\nDate of concert: " + momentTime)
-            console.log("Venue name: " + name)
-            console.log("City: " + city)
-            console.log("Country: " + country)
+                var momentTime = moment(response.data[i].datetime).format('MM/DD/YYYY');
+                var name = response.data[i].venue.name;
+                var city = response.data[i].venue.city;
+                var country = response.data[i].venue.country;
 
-            fs.appendFile("log.txt", "\nNew Concert!\n This concert is on " + JSON.stringify(momentTime), function (err) {
-                if (err) {
-                    console.log(err);
-                }
-            });
-            fs.appendFile("log.txt", ", at " + JSON.stringify(name), function (err) {
-                if (err) {
-                    console.log(err);
-                }
-            });
-            fs.appendFile("log.txt", ", in the city of " + JSON.stringify(city), function (err) {
-                if (err) {
-                    console.log(err);
-                }
-            });
-            fs.appendFile("log.txt", ", " + JSON.stringify(country), function (err) {
-                if (err) {
-                    console.log(err);
-                }
-            });
-            
-        }
-    }).catch(function (error) {
+                console.log("\nNew Concert!\nDate of concert: " + momentTime)
+                console.log("Venue name: " + name)
+                console.log("City: " + city)
+                console.log("Country: " + country)
+
+                fs.appendFile("log.txt", "\nNew Concert!\n This concert is on " + JSON.stringify(momentTime), function (err) {
+                    if (err) {
+                        console.log(err);
+                    }
+                });
+                fs.appendFile("log.txt", ", at " + JSON.stringify(name), function (err) {
+                    if (err) {
+                        console.log(err);
+                    }
+                });
+                fs.appendFile("log.txt", ", in the city of " + JSON.stringify(city), function (err) {
+                    if (err) {
+                        console.log(err);
+                    }
+                });
+                fs.appendFile("log.txt", ", " + JSON.stringify(country), function (err) {
+                    if (err) {
+                        console.log(err);
+                    }
+                });
+
+            }
+        }).catch(function (error) {
             if (error.response) {
 
                 console.log("---------------Data---------------");
@@ -116,7 +115,7 @@ function spotifyThis() {
             return console.log('Error occurred: ' + err);
         }
         for (i = 0; i < data.tracks.items.length; i++) {
-            
+
             var name = data.tracks.items[i].name
             var artists = data.tracks.items[i].artists[0].name
             var album = data.tracks.items[i].album.name
@@ -153,7 +152,6 @@ function spotifyThis() {
 
 //movie-this function
 function movieThis() {
-    // Then run a request with axios to the OMDB API with the movie specified
     var queryUrl = "http://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=6382e4d1";
 
     axios.get(queryUrl).then(
@@ -165,8 +163,8 @@ function movieThis() {
             var language = response.data.Language;
             var plot = response.data.Plot;
             var actors = response.data.Actors;
-            
-            console.log("\nNew Movie!\n"+ title);
+
+            console.log("\nNew Movie!\n" + title);
             console.log("Year: " + year);
             console.log("imdbRating: " + imdbRating);
             console.log("Country of Production: " + country);
@@ -212,8 +210,6 @@ function movieThis() {
         })
         .catch(function (error) {
             if (error.response) {
-                // The request was made and the server responded with a status code
-                // that falls out of the range of 2xx
                 console.log("---------------Data---------------");
                 console.log(error.response.data);
                 console.log("---------------Status---------------");
@@ -223,7 +219,6 @@ function movieThis() {
             } else if (error.request) {
                 console.log(error.request);
             } else {
-                // Something happened in setting up the request that triggered an Error
                 console.log("Error", error.message);
             }
             console.log(error.config);
@@ -233,21 +228,24 @@ function movieThis() {
 //do-what-it-says function
 function doThis() {
     fs.readFile("random.txt", "utf8", function (error, data) {
-        // Then split it by commas (to make it more readable)
+
         var dataArr = data.split(",");
 
-        // We will then re-display the content as an array for later use.
         console.log(dataArr[0]);
         var action = dataArr[0];
 
-        console.log(dataArr[1]);
-        var value = dataArr[1];
-
-        // If the code experiences any errors it will log the error to the console.
         if (error) {
             return console.log(error);
-        }else if (action === "spotify-this-song") {
-        spotifyThis(track, "I Want it That Way")
+        } else if (action === "spotify-this-song") {
+            value = dataArr[1];
+            spotifyThis();
+        } else if (action === "movie-this") {
+            value = dataArr[1];
+            movieThis();
+        } else if (action === "concert-this") {
+            value = dataArr[1];
+            concertThis();
         }
     });
 }
+console.log("Please use command line to run this Node application!")
