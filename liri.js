@@ -11,6 +11,12 @@ var keys = require("./keys.js");
 //Require AXIOS for our API Calls
 var axios = require("axios");
 
+//Import Spotify API and store as variable
+var Spotify = require('node-spotify-api');
+
+//Import spotify id and secret and store them as a variable as well
+var spotify = new Spotify(keys.spotify);
+
 //Creating variables to hold command line commands and values
 var action = process.argv[2];
 
@@ -19,29 +25,29 @@ var value = process.argv[3];
 //Creating switch-case statement so liri.js can take in one of the following commands
 switch (action) {
     case "concert-this":
-      concertThis();
-      break;
-    
+        concertThis();
+        break;
+
     case "spotify-this-song":
-      spotifyThis();
-      break;
-    
+        spotifyThis();
+        break;
+
     case "movie-this":
-      movieThis();
-      break;
-    
+        movieThis();
+        break;
+
     case "do-what-it-says":
-      doThis();
-      break;
-    }
+        doThis();
+        break;
+}
 
 //Import Spotify API and store as variable
 var Spotify = require('node-spotify-api');
- 
+
 var spotify = new Spotify(keys.spotify);
 
 function spotifyThis() {
-    spotify.search({ type: 'track', query: "Superstitious" }, function (err, data) {
+    spotify.search({ type: 'track', query: value }, function (err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
@@ -50,60 +56,117 @@ function spotifyThis() {
             var artists = data.tracks.items[i].artists[0].name
             var album = data.tracks.items[i].album.name
             var url = data.tracks.items[i].external_urls.spotify
-            fs.appendFile("random.txt", JSON.stringify(name, artists, album, url), function (err) {
-                    if (err) {
-                        console.log(err);
-                    }
-                    // If no error is experienced, we'll log the phrase "Content Added" to our node console.
-                    else {
-                        console.log("Content Added!");
-                    }
-                });
+
+            console.log("Name: " + name)
+            console.log("Artist(s): " + artists)
+            console.log("Album:" + album)
+            console.log("Link: " + url)
+
+            fs.appendFile("log.txt", "\n " + JSON.stringify(name), function (err) {
+                if (err) {
+                    console.log(err);
+                }
+                // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+                else {
+                    console.log("Name Added!");
+                }
+            });
+            fs.appendFile("log.txt", ", " + JSON.stringify(artists), function (err) {
+                if (err) {
+                    console.log(err);
+                }
+                // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+                else {
+                    console.log("Artists Added!");
+                }
+            });
+            fs.appendFile("log.txt", ", " + JSON.stringify(album), function (err) {
+                if (err) {
+                    console.log(err);
+                }
+                // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+                else {
+                    console.log("Album Added!");
+                }
+            });
+            fs.appendFile("log.txt", ", " + JSON.stringify(url), function (err) {
+                if (err) {
+                    console.log(err);
+                }
+                // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+                else {
+                    console.log("URL Added!");
+                }
+            });
         }
     })
 };
 
+
 function movieThis() {
-// Then run a request with axios to the OMDB API with the movie specified
-var queryUrl = "http://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=6382e4d1";
+    // Then run a request with axios to the OMDB API with the movie specified
+    var queryUrl = "http://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=6382e4d1";
 
-// This line is just to help us debug against the actual URL.
-console.log(queryUrl);
+    axios.get(queryUrl).then(
+        function (response) {
+            var title = response.data.Title;
+            console.log(title);
 
-axios.get(queryUrl).then(
-  function(response) {
-    console.log("--------Title--------")
-    console.log(response.data.Title);
-    console.log("---------Year---------")
-    console.log(response.data.Year);
-    console.log("-----IMDB Rating-----")
-    console.log(response.data.imdbRating);
-    console.log("-------Country--------")
-    console.log(response.data.Country);
-    console.log("-------Language-------")
-    console.log(response.data.Language);
-    console.log("---------Plot---------")
-    console.log(response.data.Plot);
-    console.log("--------Actors--------")
-    console.log(response.data.Actors);
-  })
-  .catch(function(error) {
-    if (error.response) {
-      // The request was made and the server responded with a status code
-      // that falls out of the range of 2xx
-      console.log("---------------Data---------------");
-      console.log(error.response.data);
-      console.log("---------------Status---------------");
-      console.log(error.response.status);
-      console.log("---------------Status---------------");
-      console.log(error.response.headers);
-    } else if (error.request) {
-      // The request was made but no response was received
-      // `error.request` is an object that comes back with details pertaining to the error that occurred.
-      console.log(error.request);
-    } else {
-      // Something happened in setting up the request that triggered an Error
-      console.log("Error", error.message);
-    }
-    console.log(error.config);
-  })};
+            var year = response.data.Year;
+            console.log("Year: " + year);
+
+            var imdbRating = response.data.imdbRating;
+            console.log("imdbRating: " + imdbRating);
+
+            var country = response.data.Country;
+            console.log("Country of Production: " + country);
+
+            var language = response.data.Language;
+            console.log("Language:" + language);
+
+            var plot = response.data.Plot;
+            console.log("Plot: " + plot);
+
+            var actors = response.data.Actors;
+            console.log("Actors: " + actors);
+        })
+        .catch(function (error) {
+            if (error.response) {
+                // The request was made and the server responded with a status code
+                // that falls out of the range of 2xx
+                console.log("---------------Data---------------");
+                console.log(error.response.data);
+                console.log("---------------Status---------------");
+                console.log(error.response.status);
+                console.log("---------------Status---------------");
+                console.log(error.response.headers);
+            } else if (error.request) {
+                console.log(error.request);
+            } else {
+                // Something happened in setting up the request that triggered an Error
+                console.log("Error", error.message);
+            }
+            console.log(error.config);
+        })
+};
+
+function doThis() {
+    fs.readFile("random.txt", "utf8", function (error, data) {
+        // Then split it by commas (to make it more readable)
+        var dataArr = data.split(",");
+
+        // We will then re-display the content as an array for later use.
+        console.log(dataArr[0]);
+        var action = dataArr[0];
+
+        console.log(dataArr[1]);
+        var value = dataArr[1];
+
+        // If the code experiences any errors it will log the error to the console.
+        if (error) {
+            return console.log(error);
+        }else if (action === "spotify-this-song") {
+            //Havent figured this out yet
+        }
+    });
+}
