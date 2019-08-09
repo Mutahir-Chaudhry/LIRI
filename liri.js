@@ -51,8 +51,6 @@ function concertThis() {
     axios.get(queryUrl).then(
         function (response) {
 
-            console.log(response.data[0])
-
             for (i = 0; i < response.data.length; i++) {
 
                 var momentTime = moment(response.data[i].datetime).format('MM/DD/YYYY');
@@ -230,8 +228,6 @@ function doThis() {
     fs.readFile("random.txt", "utf8", function (error, data) {
 
         var dataArr = data.split(",");
-
-        console.log(dataArr[0]);
         var action = dataArr[0];
 
         if (error) {
@@ -248,4 +244,3 @@ function doThis() {
         }
     });
 }
-console.log("Please use command line to run this Node application!")
