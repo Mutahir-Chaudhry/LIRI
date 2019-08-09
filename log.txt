@@ -1,24 +1,24 @@
 
 New Concert!
- This concert is on "08/14/2019"
+ This concert is on "08/14/2019", in the city of "Bucharest", at "National Stadion Bukarest"
 New Concert!
- This concert is on "08/16/2019", at "Ernst-Happel-Stadion", in the city of "Wien", "Austria"
+ This concert is on "08/16/2019", in the city of "Wien", "Austria"
 New Concert!
- This concert is on "08/18/2019", "Romania", at "National Stadion Bukarest", in the city of "Bucharest", at "Letiště Letňany", in the city of "Prague", "Czech Republic"
+ This concert is on "08/18/2019", at "Letiště Letňany", "Romania", "Czech Republic"
 New Concert!
  This concert is on "08/21/2019", at "PGE Narodowy", in the city of "Warsaw", "Poland"
 New Concert!
- This concert is on "08/23/2019", at "Olympiastadion München", in the city of "Munchen", "Germany"
+ This concert is on "08/23/2019", in the city of "Munchen", "Germany", at "Olympiastadion München"
 New Concert!
- This concert is on "08/25/2019", at "Maimarktgelände", in the city of "Mannheim", "Germany"
+ This concert is on "08/25/2019", at "Maimarktgelände", in the city of "Mannheim"
 New Concert!
- This concert is on "09/06/2019", at "Chase Center", in the city of "San Francisco", "United States"
+ This concert is on "09/06/2019", "Germany", at "Chase Center", "United States"
 New Concert!
- This concert is on "09/08/2019", at "Chase Center", in the city of "San Francisco", "United States"
+ This concert is on "09/08/2019", in the city of "San Francisco", at "Chase Center", at "Ernst-Happel-Stadion"
 New Concert!
- This concert is on "10/17/2019", at "Optus Stadium", in the city of "Burswood", "Australia"
+ This concert is on "10/17/2019", in the city of "Burswood", at "Optus Stadium", "Australia"
 New Concert!
- This concert is on "10/20/2019", at "Adelaide Oval", in the city of "North Adelaide", "Australia"
+ This concert is on "10/20/2019", at "Adelaide Oval", "United States", in the city of "North Adelaide", "Australia"
 New Concert!
  This concert is on "10/22/2019", at "Marvel Stadium", in the city of "Docklands", "Australia"
 New Concert!
@@ -26,90 +26,90 @@ New Concert!
 New Concert!
  This concert is on "10/26/2019", at "ANZ Stadium", in the city of "Sydney Olympic Park", "Australia"
 New Concert!
- This concert is on "10/29/2019", at "Queensland Sport And Athletics Centre (QSAC)", in the city of "Brisbane", "Australia"
+ This concert is on "10/29/2019", at "Queensland Sport And Athletics Centre (QSAC)", "Australia", in the city of "Brisbane"
 New Concert!
  This concert is on "10/31/2019", at "Mt Smart Stadium", in the city of "Auckland", "New Zealand"
 New Concert!
- This concert is on "11/02/2019", at "Mt Smart Stadium", in the city of "Auckland", "New Zealand"
+ This concert is on "11/02/2019", at "Mt Smart Stadium", in the city of "Auckland", "New Zealand", in the city of "Prague", in the city of "San Francisco"
 New Song!
- "Superstitious". Created by "MKTO". For the album "Superstitious". Link to song: "https://open.spotify.com/track/30S1iC18OtPdwoHIyOLrSy"
+ "Superstitious". For the album "Superstitious". For the album "Out Of This World". Link to song: "https://open.spotify.com/track/4Mq8m1rgMittyGnP5ty36Q". Created by "Europe"
 New Song!
- "Superstitious". Created by "Europe". For the album "Out Of This World". Link to song: "https://open.spotify.com/track/4Mq8m1rgMittyGnP5ty36Q"
+ "I Ain't Superstitious". For the album "Truth". Link to song: "https://open.spotify.com/track/1Hm9E70VKLq37oTLESiP6o". Created by "Jeff Beck"
 New Song!
- "I Ain't Superstitious". Created by "Jeff Beck". For the album "Truth". Link to song: "https://open.spotify.com/track/1Hm9E70VKLq37oTLESiP6o"
+ "Superstitious 17 - Live". For the album "Live at the Chicken". Created by "Granger Smith". Link to song: "https://open.spotify.com/track/1UOUqrP0B5ihSVxLth1TOq". Created by "Superstitious Key"
 New Song!
- "Superstitious 17 - Live". Created by "Granger Smith". For the album "Live at the Chicken". Link to song: "https://open.spotify.com/track/1UOUqrP0B5ihSVxLth1TOq"
+ "My one True Weakness". For the album "Start Cold Apology". Link to song: "https://open.spotify.com/track/6P5PS2VIkYyS8oGuWmJs41"
 New Song!
- "My one True Weakness". Created by "Superstitious Key". For the album "Start Cold Apology". Link to song: "https://open.spotify.com/track/6P5PS2VIkYyS8oGuWmJs41"
+ "My AC Adaptor". Created by "Superstitious Key". Link to song: "https://open.spotify.com/track/7ab3NUZcIUHRa7f0HCCmAo". For the album "Start Cold Apology"
 New Song!
- "My AC Adaptor". Created by "Superstitious Key". For the album "Start Cold Apology". Link to song: "https://open.spotify.com/track/7ab3NUZcIUHRa7f0HCCmAo"
+ "I Ain't Superstitious - Remastered". For the album "Peace Sells...But Who's Buying?". Created by "Megadeth". Link to song: "https://open.spotify.com/track/43gM0PIvpgqv19nFZWRlN3"
 New Song!
- "I Ain't Superstitious - Remastered". Created by "Megadeth". For the album "Peace Sells...But Who's Buying?". Link to song: "https://open.spotify.com/track/43gM0PIvpgqv19nFZWRlN3"
-New Song!
- "Superstitious". For the album "The Shaman". Created by "Percy Keith". Link to song: "https://open.spotify.com/track/5kwLfem4tsQHcaASxKoX4u"
+ "Superstitious". Created by "Percy Keith". For the album "The Shaman". Link to song: "https://open.spotify.com/track/5kwLfem4tsQHcaASxKoX4u"
 New Song!
  "Not Superstitious". Created by "Leatherface". For the album "Mush". Link to song: "https://open.spotify.com/track/3NW04Ls39jr3uxbaWOh6Mo"
 New Song!
- "I Ain't Superstitious". Created by "Jeff Beck". Link to song: "https://open.spotify.com/track/26GmYOkh2d3BSQZNRJA3H3". For the album "Beckology"
+ "I Ain't Superstitious". Created by "Jeff Beck". For the album "Beckology". Link to song: "https://open.spotify.com/track/26GmYOkh2d3BSQZNRJA3H3"
 New Song!
  "I Ain't Superstitious (feat. Eric Clapton)". Created by "Howlin' Wolf". For the album "Blues for Willie Dixon". Link to song: "https://open.spotify.com/track/4dsZ9LmC0p0wWDptdoP7Jb"
 New Song!
- "Superstitious - Chris McClenney Remix". Created by "MKTO". For the album "Superstitious (Chris McClenney Remix)". Link to song: "https://open.spotify.com/track/6r6C5X5flyxMfLDXcv9oVn"
+ "Superstitious - Chris McClenney Remix". Created by "MKTO"
 New Song!
- "I Ain't Superstitious - Remastered". Created by "Megadeth". For the album "Peace Sells...But Who's Buying (25th Anniversary)". Link to song: "https://open.spotify.com/track/7kCNWLDRkMbzaRlN3RNebN"
+ "Superstitious". For the album "Superstitious (Chris McClenney Remix)". Link to song: "https://open.spotify.com/track/6r6C5X5flyxMfLDXcv9oVn". Created by "Megadeth". Link to song: "https://open.spotify.com/track/7kCNWLDRkMbzaRlN3RNebN". For the album "Peace Sells...But Who's Buying (25th Anniversary)"
 New Song!
- "I Ain't Superstitious". Created by "Santana". For the album "Guitar Heaven: The Greatest Guitar Classics Of All Time (Deluxe Version)". Link to song: "https://open.spotify.com/track/7gmjdXowDJEX4jJzAae5w4"
+ "I Ain't Superstitious". Created by "Santana". Link to song: "https://open.spotify.com/track/7gmjdXowDJEX4jJzAae5w4". For the album "Guitar Heaven: The Greatest Guitar Classics Of All Time (Deluxe Version)". Created by "Howlin' Wolf". For the album "The London Howlin’ Wolf Sessions (Deluxe Edition)". Created by "MKTO"
 New Song!
- "I Ain't Superstitious". Created by "Howlin' Wolf". For the album "The London Howlin’ Wolf Sessions (Deluxe Edition)". Link to song: "https://open.spotify.com/track/14RtX37onWzSyGDxrVEjnH"
+ "I Ain't Superstitious". Created by "Granger Smith". For the album "Don't Listen to the Radio". Link to song: "https://open.spotify.com/track/7kNLa3u2QHtUTDaTomx7Cq"
 New Song!
- "Superstitious 17". Created by "Granger Smith". For the album "Don't Listen to the Radio". Link to song: "https://open.spotify.com/track/7kNLa3u2QHtUTDaTomx7Cq". Created by "Olivia O."
+ "Superstitious 17". Created by "Olivia O.". For the album "Superstitious.". Link to song: "https://open.spotify.com/track/7mZtPbrQt2cUKa7ebTgsMV"
 New Song!
- "Superstitious.". For the album "Superstitious.". Link to song: "https://open.spotify.com/track/7mZtPbrQt2cUKa7ebTgsMV"
+ "Superstitious.". Created by "Howlin' Wolf". For the album "Change My Way"
 New Song!
- "I Ain't Superstitious - Single Version". Created by "Howlin' Wolf". For the album "Change My Way". Link to song: "https://open.spotify.com/track/7f1ccPGgmQ1szoQbNzGnRK"
+ "I Ain't Superstitious - Single Version". Link to song: "https://open.spotify.com/track/7f1ccPGgmQ1szoQbNzGnRK". Created by "Savoy Brown". For the album "City Night". Link to song: "https://open.spotify.com/track/3RMQSfyizY37ncQ1UItK9W"
 New Song!
- "Superstitious Woman". Created by "Savoy Brown". For the album "City Night". Link to song: "https://open.spotify.com/track/3RMQSfyizY37ncQ1UItK9W"
+ "Superstitious Woman"
 New Song!
- "Bouncy Banishment". Created by "Diamond Boysen". For the album "Superstitious Movements". Link to song: "https://open.spotify.com/track/2fT2m8bbAVybdsCbAZrpTG"
+ "Bouncy Banishment". For the album "Superstitious Movements". Link to song: "https://open.spotify.com/track/2fT2m8bbAVybdsCbAZrpTG". Created by "Diamond Boysen". Link to song: "https://open.spotify.com/track/30S1iC18OtPdwoHIyOLrSy"
+New Song!
+ "I Ain't Superstitious - Remastered". Link to song: "https://open.spotify.com/track/14RtX37onWzSyGDxrVEjnH"
 New Movie!
- "Nemo" came out in "1984". It is rated at  "4.9", and was filmed in "France, UK, USA". It is in  "English". It's plot is: "A young boy imagines being in a tale he's about to hear. In this magical world he encounters many famous characters from other tales, aliens and other beings and, of course, a beautiful princess.". The actors in this film are "Seth Kibel, Jason Connery, Mathilda May, Nipsey Russell"
+ "Taken" came out in "2008". The actors in this film are "Liam Neeson, Maggie Grace, Leland Orser, Jon Gries". It is rated at  "7.8". It's plot is: "A retired CIA agent travels across Europe and relies on his old skills to save his estranged daughter, who has been kidnapped while on a trip to Paris.", and was filmed in "France, USA". It is in  "English, French, Albanian, Arabic"
 New Song!
- "I Want It That Way". For the album "The Hits--Chapter One". Created by "Backstreet Boys". For the album "Millennium". Link to song: "https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya"
+ "I Want It That Way"
 New Song!
- "I Want It That Way". For the album "I Want It That Way". Created by "Mick Jensen". Link to song: "https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd"
+ "I Want It That Way". Created by "Backstreet Boys". Created by "Backstreet Boys". For the album "Millennium". Link to song: "https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya"
 New Song!
- "I Want It That Way". For the album "Covers Part IV". Created by "Anthem Lights". Link to song: "https://open.spotify.com/track/3Ww6kEWxLh4Ub4WPJ9hMtA"
+ "I Want It That Way". Link to song: "https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd". For the album "I Want It That Way". Created by "Mick Jensen"
 New Song!
- "I Want It That Way - Reimagined". Created by "Backstreet Boys". Link to song: "https://open.spotify.com/track/62KnDRUq6CBcT7Bqb9IHKV". For the album "I Want It That Way (Reimagined)"
+ "I Want It That Way". For the album "Covers Part IV". Link to song: "https://open.spotify.com/track/3Ww6kEWxLh4Ub4WPJ9hMtA". Created by "Backstreet Boys"
 New Song!
- "Ebay (Parody of \"I Want It That Way\" by the Backstreet Boys)". Created by "\"Weird Al\" Yankovic". For the album "Poodle Hat". Link to song: "https://open.spotify.com/track/4vHb50VkxDzHYwLiHfWczK"
+ "I Want It That Way - Reimagined". Link to song: "https://open.spotify.com/track/62KnDRUq6CBcT7Bqb9IHKV". For the album "I Want It That Way (Reimagined)"
 New Song!
- "I Want It That Way". For the album "Beautiful Dreams". Created by "Tyler and Mark". Link to song: "https://open.spotify.com/track/7k52T0b1v9ktm2gJwlO5yy". Created by "Jess and Gabriel"
+ "Ebay (Parody of \"I Want It That Way\" by the Backstreet Boys)". For the album "Poodle Hat". Link to song: "https://open.spotify.com/track/4vHb50VkxDzHYwLiHfWczK". Created by "\"Weird Al\" Yankovic". Created by "Tyler and Mark". Link to song: "https://open.spotify.com/track/7k52T0b1v9ktm2gJwlO5yy"
 New Song!
- "I Want It That Way". Link to song: "https://open.spotify.com/track/52FgeDoHydoWZbFGgxwCdH". For the album "Under the Covers, Vol. 3". Created by "Dynamite Boy"
+ "I Want It That Way". For the album "Beautiful Dreams". Created by "Jess and Gabriel"
 New Song!
- "I Want It That Way". For the album "Punk Goes Pop". Link to song: "https://open.spotify.com/track/0X5ygHsca3pJ3KErPsXhGc"
+ "I Want It That Way". For the album "Under the Covers, Vol. 3". Link to song: "https://open.spotify.com/track/52FgeDoHydoWZbFGgxwCdH"
+New Song!
+ "I Want It That Way". Created by "Dynamite Boy". For the album "Punk Goes Pop". Link to song: "https://open.spotify.com/track/0X5ygHsca3pJ3KErPsXhGc"
 New Song!
  "I Want It That Way". Created by "Backstreet Boys". For the album "90 Sweet 90s Hits!". Link to song: "https://open.spotify.com/track/1zCiqxhampG4dcC7HEqPu5"
 New Song!
  "I Want It That Way". Created by "Steel Panther". For the album "I Want It That Way". Link to song: "https://open.spotify.com/track/0448cNUvZGCAlUpIPO5kdY"
 New Song!
- "Bye Bye Bye / I Want It That Way (Glee Cast Version)". Created by "Glee Cast". Link to song: "https://open.spotify.com/track/3t7m7AzV2ntuI9fIT6KREP". For the album "Bye Bye Bye / I Want It That Way (Glee Cast Version)"
+ "Bye Bye Bye / I Want It That Way (Glee Cast Version)". Created by "Glee Cast". For the album "Bye Bye Bye / I Want It That Way (Glee Cast Version)". Link to song: "https://open.spotify.com/track/3t7m7AzV2ntuI9fIT6KREP"
 New Song!
  "I Want It That Way". Created by "Backstreet Boys". For the album "NKOTBSB". Link to song: "https://open.spotify.com/track/2KMwtsWwL5QDtSpm814tju"
 New Song!
- "I Want It That Way". For the album "Cover Sessions, Vol. 2". Link to song: "https://open.spotify.com/track/16COzZ7jCVn3O8b8ZgviOx". Created by "Boyce Avenue". Created by "Scary Pockets". For the album "Nu Funk". Link to song: "https://open.spotify.com/track/4IWQXV01Lp0wsXCXo09EBr"
+ "I Want It That Way". Created by "Boyce Avenue". For the album "Cover Sessions, Vol. 2". Link to song: "https://open.spotify.com/track/16COzZ7jCVn3O8b8ZgviOx"
 New Song!
- "I Want It That Way"
+ "I Want It That Way". Created by "Scary Pockets". Link to song: "https://open.spotify.com/track/4IWQXV01Lp0wsXCXo09EBr". For the album "Nu Funk"
 New Song!
- "I Want It That Way". For the album "I Want It That Way". Link to song: "https://open.spotify.com/track/4Sp4RxkWukxqJykl0ySNQi". Created by "Manuel Costa"
+ "I Want It That Way". Created by "Manuel Costa". For the album "I Want It That Way". Link to song: "https://open.spotify.com/track/4Sp4RxkWukxqJykl0ySNQi"
 New Song!
- "I Want It That Way". For the album "Selfies on Kodachrome". Link to song: "https://open.spotify.com/track/1Le3uYU5NU9cXXtYeSWnEM". Created by "Scott Bradlee's Postmodern Jukebox"
+ "I Want It That Way". Created by "Scott Bradlee's Postmodern Jukebox". For the album "Selfies on Kodachrome". Link to song: "https://open.spotify.com/track/1Le3uYU5NU9cXXtYeSWnEM"
 New Song!
- "Ebay (Parody of \"I Want It That Way\" by the Backstreet Boys)". Link to song: "https://open.spotify.com/track/1vaico2C72imYowF4Kv04V". Created by "\"Weird Al\" Yankovic". For the album "The Essential \"Weird Al\" Yankovic". Created by "Backstreet Boys". Created by "Yshop"
+ "Ebay (Parody of \"I Want It That Way\" by the Backstreet Boys)". Created by "\"Weird Al\" Yankovic". For the album "The Essential \"Weird Al\" Yankovic". Link to song: "https://open.spotify.com/track/1vaico2C72imYowF4Kv04V"
 New Song!
- "I Want It That Way". For the album "I Want It That Way"
+ "I Want It That Way". For the album "I Want It That Way". Link to song: "https://open.spotify.com/track/0sRt44NXdLVqYeD2TAm1A5". Created by "Yshop". For the album "The Hits--Chapter One"
 New Song!
- "I Want It That Way". Created by "Backstreet Boys". Link to song: "https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6". Link to song: "https://open.spotify.com/track/75W4IDdKhHvRQZpaDx9YPg". For the album "NOW That's What I Call 90s Pop"
-New Song!
- "I Want It That Way". Link to song: "https://open.spotify.com/track/0sRt44NXdLVqYeD2TAm1A5"
+ "I Want It That Way". Link to song: "https://open.spotify.com/track/0rZTeneJh7IM5SdoabMcYA". Created by "#90s Update". Link to song: "https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6". Created by "Anthem Lights". For the album "#90s Update"
